@@ -1,0 +1,21 @@
+{
+  "name": "roam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "npm start",
+    "start:dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DeBray Carpenter",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "pg-promise": "^7.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
